@@ -1,0 +1,22 @@
+[
+    {
+        "name": "red cream",
+        "function": "reconstruction",
+        "use": false
+    },
+    {
+        "name": "green cream",
+        "function": "hidratation",
+        "use": false
+    },
+    {
+        "name": "yellow cream",
+        "function": "nutrition",
+        "use": false
+    },
+    {
+        "name": "gold cream",
+        "function": "nutrition mask",
+        "use": true
+    }
+]
