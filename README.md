@@ -13,3 +13,16 @@ This system is designed for personal use and is not intended to be deployed as a
 
 **Future Improvements:**  
 Potential future enhancements could include adding a user interface, implementing reminders for when to switch creams, or tracking additional details like usage frequency.
+
+## Data Flow Diagram (DFD)
+
+```mermaid
+graph TD
+    A[User] -->|Load data| B[Load data from JSON]
+    B --> C[Data loaded]
+    A -->|Update usage| D[Update usage status]
+    D --> E[Save data to JSON]
+    E --> C
+    A -->|Check last used| F[Get last used cream]
+    F --> C
+    C --> G[Display information to user]
